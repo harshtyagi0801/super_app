@@ -1,0 +1,30 @@
+.cardss{
+    display: grid;
+    grid-template-columns: 23% 23% 23%;
+    gap: 30px;
+    height: 60%;    
+    margin-top:15%;
+    font-family: sans-serif;
+    font-weight: 10px;
+    color: white;
+    letter-spacing: 1.5px;
+}
+.card{
+    
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+img{
+    margin-top: 10px;
+    width: 100%;
+}
+.btn{
+    background-color: #148A08;
+    color: white;
+    width: 8rem;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    padding: 5px;
+}

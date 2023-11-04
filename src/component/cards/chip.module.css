@@ -1,0 +1,65 @@
+.container{
+   
+    width: 70%;
+    height: 80vh;
+    position: relative;
+    top: 10%;
+    left: 13%;
+}
+.container>h1{
+    color: #72DB73;
+    font-family: Comic Sans MS;
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.container>label{
+    color:#FFFFFF ;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.container>p{
+    color:red ;
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing:2px;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    
+}
+.warn{
+    padding-right: 10px;
+   position: relative;
+   top: 2px;
+}
+ .container ul{
+    display: grid;
+    grid-template-columns: 32% 32% 34%;
+    margin-top: 40px;
+   gap: 20px;
+   width: 80%;
+}
+.container ul li{
+    width: 70%;
+   height: 3vh;
+   font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    background-color: #148A08;
+    color: azure;
+   padding: 5px 10px 5px 20px;
+   
+}
+.icon{
+    font-size: 100%;
+    position: relative;
+    top: 3px;
+    float:right;
+    right: 5%;
+    color: #085C00;
+    font-weight: 200px;
+}
